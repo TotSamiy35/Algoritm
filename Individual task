@@ -1,7 +1,7 @@
 import sys
 from collections import deque
 
-sequences = []
+sequences = []в
 for line in sys.stdin:  # Считываем все последовательности из потока стандартного ввода, по одной в строке
     if len(line.split()) == 2:
         start_seq, finish_seq = [int(x) for x in line.split()]  # считываем номера последовательностей,
